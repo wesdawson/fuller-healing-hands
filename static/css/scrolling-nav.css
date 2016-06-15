@@ -28,12 +28,12 @@ html {
 }
 
 .navbar-custom {
-  background-color: ##181817;
+  background-color: #52612d;
   border-color: #e7e7e7;
 }
 
 .navbar-custom .navbar-nav>li>a {
-  color: #777;
+  color: white;
 }
 
 .navbar-custom .navbar-brand {
@@ -70,19 +70,19 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #ebdcb6;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #c9bc9d;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    text-align: left;
     background: #eee;
 }
