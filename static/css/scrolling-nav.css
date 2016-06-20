@@ -162,10 +162,10 @@ html {
 }
 
 a.scroll-arrow {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     width: 50px;
-    line-height: 52px;
+    line-height: 50px;
     border-radius: 50%;
     height: 50px;
     border: 1px solid white;
@@ -174,7 +174,6 @@ a.scroll-arrow {
     position: absolute;
     bottom: 20px;
     left: 50%;
-    z-index: 1029;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
