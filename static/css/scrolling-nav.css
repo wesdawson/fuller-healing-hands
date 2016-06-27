@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-size: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 html {
@@ -184,9 +185,27 @@ a.scroll-arrow {
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 6.75em;
     text-align: center;
     background: #ebdcb6;
+}
+
+.about-header h2 {
+  font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  margin: 0.4em 0;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-size: 1.5em;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 .75em;
 }
 
 .services-section {
@@ -202,4 +221,38 @@ a.scroll-arrow {
     background-position: center bottom;
     padding-top: 75px;
     text-align: left;
+}
+
+.contact-header {
+  color: white;
+}
+
+.contact-header h1 {
+  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #fff;
+    color: #fff;
+    text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    opacity: .8;
 }
