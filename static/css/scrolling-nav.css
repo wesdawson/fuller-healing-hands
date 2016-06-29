@@ -191,7 +191,7 @@ a.scroll-arrow {
 }
 
 .about-header h2 {
-  font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "caviar_dreamsregular";
   font-size: 3em;
   font-weight: 300;
   line-height: 1.5;
@@ -206,6 +206,16 @@ a.scroll-arrow {
   line-height: 1.5;
   font-weight: 400;
   margin: 0 0 .75em;
+}
+
+.mobile-show {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+.mobile-show {
+display: block;
+}
 }
 
 .services-section {
@@ -225,6 +235,7 @@ a.scroll-arrow {
 
 .contact-header {
   color: white;
+  font-family: "caviar_dreamsregular";
 }
 
 .contact-header h1 {
