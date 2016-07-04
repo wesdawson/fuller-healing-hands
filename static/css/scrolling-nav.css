@@ -115,7 +115,7 @@ html {
 
 .intro-section {
   height: 100vh;
-  padding-top: 175px;
+  padding-top: 140px;
   text-align: center;
 
 }
@@ -139,7 +139,7 @@ html {
   text-align: center;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
   line-height: 1.5;
-  top: 40%;
+  top: 35%;
 }
 
 .intro-header h1 {
@@ -155,11 +155,32 @@ html {
   letter-spacing: 0.1em;
   font-weight: 300;
   font-size: 2em;
-  margin: 0 auto .5em;
-  line-height: 1.5;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  margin: 1em 0 0 0;
   font-family: 'Droid Serif',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.intro-separator-container {
+  text-align: center;
+  position: relative;
+}
+.intro-separator-container .separator {
+  color: white;
+  margin: 1.8em auto 0;
+  width: 40%;
+}
+.intro-separator-container .separator.line-separator:before, .intro-separator-container .separator.line-separator:after {
+  display: block;
+  width: 43%;
+  content: " ";
+  margin-top: 7px;
+  border: 1px solid white;
+}
+.intro-separator-container .separator.line-separator:before {
+  float: left;
+}
+.intro-separator-container .separator.line-separator:after {
+  float: right;
 }
 
 a.scroll-arrow {
@@ -173,7 +194,7 @@ a.scroll-arrow {
     display: block;
     margin: 0 auto;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -206,6 +227,29 @@ a.scroll-arrow {
   line-height: 1.5;
   font-weight: 400;
   margin: 0 0 .75em;
+}
+
+.separator-container {
+  text-align: center;
+  position: relative;
+}
+.separator-container .separator {
+  color: #c5a47e;
+  margin: 0 auto 1em;
+  width: 200px;
+}
+.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
+  display: block;
+  width: 40%;
+  content: " ";
+  margin-top: 7px;
+  border: 1px solid #c5a47e;
+}
+.separator-container .separator.line-separator:before {
+  float: left;
+}
+.separator-container .separator.line-separator:after {
+  float: right;
 }
 
 .mobile-show {
