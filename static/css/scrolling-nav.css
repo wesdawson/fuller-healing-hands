@@ -155,7 +155,7 @@ html {
   letter-spacing: 0.1em;
   font-weight: 300;
   font-size: 2em;
-  margin: 1em 0 0 0;
+  margin: 1em 0 2em 0;
   font-family: 'Droid Serif',"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
@@ -235,7 +235,7 @@ a.scroll-arrow {
 }
 .separator-container .separator {
   color: #c5a47e;
-  margin: 0 auto 1em;
+  margin: -1em auto 1.2em;
   width: 200px;
 }
 .separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
@@ -289,7 +289,7 @@ display: block;
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "caviar_dreamsregular",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: normal;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -299,7 +299,7 @@ display: block;
 .btn-default {
     border: 1px solid #fff;
     color: #fff;
-    text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: ;
     background-color: transparent;
 }
 
