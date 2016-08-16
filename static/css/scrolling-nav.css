@@ -211,16 +211,6 @@ a.scroll-arrow {
     background: #ebdcb6;
 }
 
-.section-header {
-  font-family: "caviar_dreamsregualr";
-  font-size: 3em;
-  font-weight: 300;
-  line-height: 1.5;
-  letter-spacing: 0.025em;
-  margin: 0.1em 0;
-  text-transform: uppercase;
-}
-
 .about-header h2 {
   font-family: "caviar_dreamsregular";
   font-size: 3em;
@@ -233,10 +223,18 @@ a.scroll-arrow {
 
 .about-section p {
   font-size: 1.5em;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "caviar_dreamsregular", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: ;
+  font-weight: ;
   margin: 0 0 .75em;
+}
+
+.section-body h3 {
+  font-family: "caviar_dreamsregular";
+}
+
+.section-body p {
+  font-family: "caviar_dreamsregular";
 }
 
 .separator-container {
